@@ -8,19 +8,34 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 // var_dump($_FILES);
 
 
+$id = $_GET['id'] ?? null;
+
+// var_dump($id);
+
+if(!$id){
+    header('Location:index.php');
+    exit;
+}
+
+$statement = $pdo->prepare('SELECT * FROM products WHERE id=:id');
+$statement->bindValue(':id',$id);
+$statement->execute();
+$product = $statement->fetch(PDO::FETCH_ASSOC);
+
+
 
 
 
 $errors = [];
-$title = '';
-$price = '';
-$description='';
+$title = $product['title'];
+$price = $product['price'];
+$description=$product['description'];
 
 if($_SERVER["REQUEST_METHOD"]==="POST"){
     $title = $_POST['title'];
     $description = $_POST['description'];
     $price = $_POST['price'];
-    $date = date('Y-m-d H:i:s');
+
 
 
     if(!$title){
@@ -36,14 +51,13 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
     if(empty($errors)){
 
 
-        $statement = $pdo ->prepare("INSERT INTO products (title, image, description, price, create_date)
-        VALUES (:title, :image, :description, :price, :date)");
+        $statement = $pdo ->prepare("UPDATE products SET title=:title, image=:image, description=:description, price=:price WHERE id=:id");
  
         $statement->bindValue(':title',$title);
         $statement->bindValue(':image','');
         $statement->bindValue(':description',$description);
         $statement->bindValue(':price',$price);
-        $statement->bindValue(':date',$date);
+        $statement->bindValue(':id',$id);
         $statement->execute();
         header('Location:index.php');
     }
@@ -67,7 +81,8 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
     <title>Document</title>
 </head>
 <body>
-<h3 class="text-center">Create New Product : </h3>
+<hr>
+<h3 class="text-center">Update   Product : <?php echo $product['title'] ?> </h3>
 <hr>
 <div class="container">
 <?php  if(!empty($errors)):?>
