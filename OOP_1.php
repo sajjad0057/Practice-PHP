@@ -45,3 +45,4 @@ echo $p1->getAge() . PHP_EOL;
 var_dump( $p1 );
 echo  $p2->name . PHP_EOL ;
 echo Person :: $counter . PHP_EOL;
+echo Person :: getCounter() . PHP_EOL;
