@@ -10,7 +10,7 @@ $url = 'https://jsonplaceholder.typicode.com/users';
 // echo PHP_EOL . $result . PHP_EOL;
 
 
-
+// client url  === curl . 
 
 #POST Request :
 
