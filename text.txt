@@ -1,0 +1,1 @@
+This the test program to understood OOP concept in PHP .
