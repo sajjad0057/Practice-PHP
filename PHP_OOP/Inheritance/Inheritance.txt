@@ -1,0 +1,8 @@
+
+<-------------    INHERITANCE = REUSABILITY    ------------------->
+
+-> If you want to reuse an existing class Properties and Methods in your class then you extend that class to your class (this is called inheritance) .
+
+-> Parant class Properties and Methods extends will be available to child classes. (It is Hierarchy - inherits)
+
+-> You can restrict the access of the Properties and Methods to child classes via  using 'protected' access Modifiers . 
