@@ -1,0 +1,32 @@
+/**
+ *  BASIC PROPOSE OF CONSTRUCTOR MIGHT BE:
+ * ===========================================
+ *  ->Initialize the properties of class.
+ *  ->Initialize the database connection.
+ *  ->Check if the file Exists . 
+ *  ->Open the file before using it with the methodd . 
+ *  ->Check for the internet connection . 
+ *  ->Check API is reachable before the connection . 
+ *  ->Load Instance of a class . 
+ *  ->Load Mendatory properties to execute the methods in the class . 
+  
+ */
+
+
+ /**
+ * What Is DESTRUCTOR :
+ * ====================================================================
+ * -> Destructor are magic methods that gets loaded automatically just before the instance of a class is destroyed . 
+ * 
+ * Purpose of destructor might be :
+ * ============================================================================
+ * ->Example : Closing database Connection or Saving File or Etc . 
+ * ->Perform the cleanup activities . 
+ * ->Save the log Files . 
+ * ->Write Activity Logs - End Time . 
+ * ->Free up the Resources . 
+ * ->Save the properties into a File . 
+ * ->Save the Cache . 
+ * ->Serialize the Objects . 
+ * 
+ */

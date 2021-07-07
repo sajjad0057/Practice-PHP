@@ -1,0 +1,19 @@
+
+# What is Access Modifiers :
+
+-> Access Modifiers helps to restrict the access of properties or methods . 
+
+-> Access Modifiers are of 3 types - public , private and protected .
+
+-> Can't have access Modifiers to a class . **
+
+-> Access Modifiers are only be appllied on class properties and class methods or functions . ***
+
+
+-> they help to hide the properties and methods accessed from the objects .
+
+-> By default methods are public . 
+
+
+# Private Access Modifier :
+->Private access modifier means it can be accessed only inside the class and cannot be accessed from outside the class . 
