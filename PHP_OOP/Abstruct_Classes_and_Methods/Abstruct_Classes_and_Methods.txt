@@ -1,0 +1,20 @@
+
+====================== ABSTRACT CLASSES AND METHODS ======================
+
+-> Abstact Class - that we cann't create object define as Abstact class . 
+
+-> A class is called Abstact ,when at least one Abstact methods define inside this class . 
+
+-> Methods that are declare in Abstact , must be define in child class . 
+
+-> Abstact class are like interface but Abstact class can have define normal methods implementation . 
+
+-> 'abstract' keyword is used to define Abstact  Class or Methods .
+
+-> Cannot create instance an Abstact Class . 
+
+-> Abstact Class means you do not want to create instance of this class but use its methods in child classes .
+
+-> utility classes are good example for abstract class .
+
+-> Abstact Class are libraries class that you want to extend and use its libraries methods . 
