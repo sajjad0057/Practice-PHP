@@ -1,0 +1,14 @@
+
+============================= POLYMORPHISM ==============================
+
+-> Polymorphism is a concept in OOP that means every parent suggest what functionality to implement and sub-classes 
+   choose to implement that functionality differently . 
+
+
+-> POLY means many and MORPHIC means form . Polymorphism means many forms of same method . 
+
+-> Polymorphism is achieved by using the same names in different classes and derived from same parent .
+
+->
+
+
