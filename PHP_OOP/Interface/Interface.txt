@@ -1,0 +1,49 @@
+
+ ===================== Interface - framework ===================
+
+ 
+Class
+-------------------------------------------------------------------	                                                 
+A class describes the attributes and behaviors of an object.
+
+A class may contain abstract methods, concrete methods.
+
+Members of a class can be public, private, protected or default.
+
+
+
+
+Interface
+---------------------------------------------------------------------
+An interface contains behaviors that a class implements.
+            
+An interface contains only abstract methods.
+
+All the members of the interface are public by default.
+
+
+
+..................................................................................................
+**************************************************************************************************
+
+'interface' keyword is used to define Interface . 
+'implements' keyword is used to implement from Interface .
+
+
+
+-> You can not define methods in Interface . All the methods in Interface has to be just definitions . 
+
+-> Interface are like framework or structure that every class must define it when they implement the interface . 
+
+-> Any Class can implement once or many Interface . 
+
+
+---------- USE CASE OF INTERFACE ------------
+
+-> Interfaces are like guideline or contract . 
+
+-> When you want to controll how a class should be defined then you can define some guideline using Interface 
+   and ask all the implementation class to follow it . 
+
+ -> A server can implement the code and give a interface to call that methods with the requires parameters .    
+
