@@ -3,13 +3,9 @@
 class Course {
 
     public $c_id;
-    public $l_id_Obj;
-    public $q_id_Obj;
 
-    function __construct($c_id,$l_id,$q_id){
+    function __construct($c_id){
         $this->c_id = $c_id;
-        $this->l_id_Obj=new Lesson($l_id); // this is TightCoupling . 
-        $this->q_id_Obj=new Quiz($q_id); // this is TightCoupling . 
     }
 
 
@@ -20,8 +16,9 @@ class Lesson extends Course {
 
     public $l_id;
 
-    function __construct($l_id){
+    function __construct($l_id,Course $c){
         $this->l_id = $l_id;
+        $this->c_id = $c->c_id;
     }
 
 
@@ -38,8 +35,9 @@ class Quiz extends Course {
 
     public $q_id;
 
-    function __construct($q_id){
+    function __construct($q_id,Course $c){
         $this->q_id = $q_id;
+        $this->c_id = $c->c_id;
     }
 
 
@@ -51,7 +49,10 @@ class Quiz extends Course {
 }
 
 
-$c1 = new Course(1,1101,1011);
-// $l = new Lesson(1101)
-$c1->l_id_Obj->showLessons();
-$c1->q_id_Obj->showQuiz();
+$c1 = new Course(1);
+$l1 = new Lesson(101,$c1);
+$q1 = new Quiz(111,$c1);
+
+$l1->showLessons();
+$q1->showQuiz();
+
