@@ -1,0 +1,15 @@
+
+--------------------------------- final keyword --------------------------------------------------
+
+
+*****   final keyword is used to restrict method or Class to be inherit by child class . *****
+
+-> final keyword will be used with both class and method . 
+
+
+
+Remember that : 
+---------------
+
+-> Class as final = Prevent Inheritance 
+-> Method as final = Prevent Method overriding 
