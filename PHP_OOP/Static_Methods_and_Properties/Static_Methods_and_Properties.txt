@@ -9,3 +9,7 @@
 
 -> (::) - Scope resulation operator is used to access static methods and properties with class name . 
            Example : Class_Name :: StaticMethod() ; Class_Name :: $StaticProperties . 
+
+-> Utiliy class can be a good Example for static class . 
+
+-> 
