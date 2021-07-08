@@ -1,0 +1,11 @@
+
+=========================== MAGIC METHOD =============================
+
+MAGIC methods are default methods available for any class and invoke automatically depending on the triggers .
+
+example : 
+__construct(),
+__destruct(),
+
+
+see documentation for know more about magic method and their implementation  .
