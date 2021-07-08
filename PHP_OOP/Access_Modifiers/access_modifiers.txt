@@ -15,5 +15,15 @@
 -> By default methods are public . 
 
 
+
+
+
 # Private Access Modifier :
 ->Private access modifier means it can be accessed only inside the class and cannot be accessed from outside the class . 
+
+
+
+
+# protected access modifier :
+-> protected access modifier means it can be accessed inside the Parent class  and immediate child classes only . ***
+-> protected properties cannot be accessed from outside using objects . ***
