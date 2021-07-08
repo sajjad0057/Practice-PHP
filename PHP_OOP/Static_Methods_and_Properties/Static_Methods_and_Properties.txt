@@ -1,0 +1,11 @@
+
+=========================  STATIC METHOD AND PROPERTIES ========================
+
+-> When you want to access class methods or properties without an instance then they are marked as static .
+
+-> Method and properties are marked as static so that it can be access with class names directly . 
+
+-> use 'static' keyword to define static method or properties . 
+
+-> (::) - Scope resulation operator is used to access static methods and properties with class name . 
+           Example : Class_Name :: StaticMethod() ; Class_Name :: $StaticProperties . 
