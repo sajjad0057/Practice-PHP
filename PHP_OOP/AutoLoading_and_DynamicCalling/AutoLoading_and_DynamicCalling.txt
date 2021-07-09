@@ -1,0 +1,11 @@
+
+===================== AutoLoading_and_DynamicCalling =========================
+
+-> Auto Loading or Automatic Loading is a feature that will help you to load php file dynamically when it is used in the program . 
+
+-> Use Case :
+
+    -> Instead if require-once all the files you can use the PHP build in function to include them when it is called . 
+
+    -> This way you don't have to include files and allow them to load dynamically . 
+    
