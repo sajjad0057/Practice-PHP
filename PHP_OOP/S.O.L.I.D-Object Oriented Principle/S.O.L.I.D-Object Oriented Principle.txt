@@ -1,0 +1,90 @@
+
+================= S.O.L.I.D-Object Oriented Principle =========================
+
+    -> S-RP : Single Reponsibility Principle 
+
+    -> O-CP : Open Close Principle 
+
+    -> L-SP : Liskov Substituition Principle 
+
+    -> I-SP : Interface Segregation Principle 
+
+    -> D-IP : Dependency Inversion Principle 
+
+
+
+
+
+
+------------------------ S-RP : Single Reponsibility Principle -------------------------
+
+            One Class - One Reponsibility
+
+    -> A class should define a Single purpose and all the properties and methods should work on Single purpose .
+
+    -> Any new change to the class is only to enchance its feature not depending on other Dependency . 
+
+
+
+
+
+------------------------  O-CP : Open Close Principle  ------------------------------------
+
+            OPEN for EXTENSION AND CLOSE for MODIFICATIONS
+        
+    -> A class should always be extented rather it should be modified .
+
+    -> Child classes Changes should not affected the parent class to change .
+
+    -> Child Class should extend parent and Adjust the changes without modifying the parent . 
+
+
+
+
+
+--------------------------------- L-SP : Liskov Substituition Principle ------------------------------------
+
+    -> Function that use pointers to base classes must be able to use objects of derived classes without knowing it . 
+
+
+
+
+
+----------------------------------  I-SP : Interface Segregation Principle -----------------------------------------
+
+                   Make Fine Grained Interfaces That Are Client Specific . 
+
+    -> Seperate your Interface Methods to very Specific definitions .
+
+    -> Too many methods in one Interface will force classes to implement them even it is not related . 
+
+    -> Keep Interface thin and Specific to that classes it implements . 
+
+
+
+
+ ----------------------------- D-IP : Dependency Inversion Principle --------------------------------------------
+
+               Reusable Modules Should be Define in Abstraction 
+    
+    -> When we define Reusable Modules like Database Class , Read File Class , ConvertString Class it should be written Specific and generic .
+
+    -> High level classes that uses the Low level classes must be define in Abstraction (Isolation ). 
+
+    -> ReadFile should able to read JSON , XML or CSV and should not be limited to just XML File . You should have ReadJsonFile instead of ReadFile . (Thinking Abstraction)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

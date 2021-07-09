@@ -15,14 +15,12 @@ spl_autoload_register(function($classname){
 
 
 
-$sh = new StringHelper();
-$sh ->hello();
 
-$f_1 = new Files();
+$f_1 = new Library\Files();
 $f_1 ->hello();
 
 
-$db = new Database();
+$db = new Library\Database();
 $db ->hello();
 
 
