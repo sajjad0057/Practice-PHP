@@ -1,4 +1,4 @@
-<?php 
+<?php namespace Library;
 
 class database{
 
