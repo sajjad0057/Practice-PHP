@@ -1,0 +1,19 @@
+
+-> ------------------------- KISS --------------------------
+
+KISS (Keep It simple ,Stupid);
+----> Simplicity is a key goal . 
+
+Division of Responsibilities :
+
+-> System -----> Namespace 
+-> Package -----> Classes 
+-> Class ------> Method 
+-> Method ------> controll statement .
+
+
+
+-> YAGNI (You Aren't Gonna Need it) .
+
+
+->DRY (Don't Repeat YourSelf)

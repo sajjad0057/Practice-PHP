@@ -38,7 +38,7 @@ All the members of the interface are public by default.
 -> Any Class can implement once or many Interface . 
 
 
----------- USE CASE OF INTERFACE ------------
+------------------------- USE CASE OF INTERFACE --------------------------
 
 -> Interfaces are like guideline or contract . 
 

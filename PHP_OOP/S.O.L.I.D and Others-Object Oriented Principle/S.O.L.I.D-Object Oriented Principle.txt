@@ -14,8 +14,6 @@
 
 
 
-
-
 ------------------------ S-RP : Single Reponsibility Principle -------------------------
 
             One Class - One Reponsibility
@@ -52,7 +50,7 @@
 
 ----------------------------------  I-SP : Interface Segregation Principle -----------------------------------------
 
-                   Make Fine Grained Interfaces That Are Client Specific . 
+                Make Fine Grained Interfaces That Are Client Specific . 
 
     -> Seperate your Interface Methods to very Specific definitions .
 
@@ -67,11 +65,16 @@
 
                Reusable Modules Should be Define in Abstraction 
     
-    -> When we define Reusable Modules like Database Class , Read File Class , ConvertString Class it should be written Specific and generic .
+
+    -> When we define Reusable Modules like Database Class , Read File Class , ConvertString Class it
+     should be written Specific and generic .
+
 
     -> High level classes that uses the Low level classes must be define in Abstraction (Isolation ). 
 
-    -> ReadFile should able to read JSON , XML or CSV and should not be limited to just XML File . You should have ReadJsonFile instead of ReadFile . (Thinking Abstraction)
+
+    -> ReadFile should able to read JSON , XML or CSV and should not be limited to just XML File . 
+    -> You should have ReadJsonFile instead of ReadFile . (Thinking Abstraction)
 
 
 
